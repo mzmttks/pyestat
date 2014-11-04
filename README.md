@@ -14,8 +14,10 @@ Before you use
 You need to set your api key to an environment variable `PYESTAT_KEY`
 You can get it at http://statdb.nstac.go.jp/regist-login/ 
 
-Function1: Search
+Function
 -----------------
+
+Search stat
 ```python
 import pyestat
 
@@ -43,7 +45,7 @@ result = pyestat.find(keyword=u"人口")
 result = pyestat.find(keyword=[u"人口", u"住宅"])  # 複数キーワードは AND 
 ```
 
-* Get Data
+Get stats
 ```python
 import pyestat
 
