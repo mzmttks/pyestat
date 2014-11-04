@@ -1,6 +1,6 @@
 pyestat
 =======
-
+[![Build Status](https://travis-ci.org/mzmttks/pyestat.svg)](https://travis-ci.org/mzmttks/pyestat)
 Overview
 --------
 Python Interface of e-Stat (Japanese Statistics Information)
