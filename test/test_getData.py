@@ -30,6 +30,10 @@ class TestGetData(unittest.TestCase):
         # find stats from 2010-1 to 2010-10
         result = pyestat.find(year=2010, month=(1, 10))
 
+def suite():
+    suite = unittest.TestSuite()
+    suite.addTests(unittest.makeSuite(TestGetData))
+    return suite
 
 if __name__ == '__main__':
     unittest.main()
