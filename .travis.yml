@@ -1,6 +1,12 @@
 language: python
 python:
   - "2.7"
-script: nosetests
+install:
+ - pip install coveralls
+script:
+ - nosetests
+ - coverage run --source=pyestat setup.py test
+after_success:
+ - coveralls
 env:
  - secure: "gZUqRIxXZH30BE9EKC1Zc8jbNoKKKPKYYDg5TpzsX7MddxrawdbgKBm6LeZvlaL90MUnj+/BmoKuW8yqsjRUbX7+7PI/9Wf0Xf4PqGGVYWrfDbcwwbR7SAr24gjydORAJr4CxkmV0W78G9O/rHEL/72xBhkFnCX6ebXSX5P2X3U="
