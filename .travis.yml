@@ -2,4 +2,5 @@ language: python
 python:
   - "2.7"
 script: nosetests
-secure: "KhHqvJsiWYMlinnsDxf/Yyo5jzzEImXq2p/XW3uhHTJDakUCErbo5laT0slaEvrUP9nykmCJa4pAktLuCA6Z6H4ABiVtunoCDi8RFbYYvw+E8wwsrLnWg103U38xYeoUxmDJbf2WWLMZytz80jDVpvoL9wdWie3a4vqhKLix8j8="
+env:
+  secure: "gZUqRIxXZH30BE9EKC1Zc8jbNoKKKPKYYDg5TpzsX7MddxrawdbgKBm6LeZvlaL90MUnj+/BmoKuW8yqsjRUbX7+7PI/9Wf0Xf4PqGGVYWrfDbcwwbR7SAr24gjydORAJr4CxkmV0W78G9O/rHEL/72xBhkFnCX6ebXSX5P2X3U="
