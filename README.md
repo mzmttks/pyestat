@@ -1,7 +1,7 @@
 pyestat
 =======
 [![Build Status](https://travis-ci.org/mzmttks/pyestat.svg)](https://travis-ci.org/mzmttks/pyestat)
-[![Coverage Status](https://coveralls.io/repos/mzmttks/pyestat/badge.png)](https://coveralls.io/r/mzmttks/pyestat)
+[![Coverage Status](http://coveralls.io/repos/mzmttks/pyestat/badge.png)](https://coveralls.io/r/mzmttks/pyestat)
 Overview
 --------
 Python Interface of e-Stat (Japanese Statistics Information)
